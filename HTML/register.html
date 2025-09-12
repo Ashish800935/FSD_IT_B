@@ -2,10 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Here</title>
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Register here </title>
 </head>
 <body>
-    <h1>Register Here</h1>
+    <h1>Registration page </h1>
+<form method="post" action="/login">
+    <label for="name">Name :</label>
+    <input type="text" name="user name" placeholder="Enter your username"/>
+    <br>
+    <label for="name">Mobile Number :</label>
+    <input type="tel" name="mobile" placeholder="Enter your Mobile No"/>
+    <br>
+    <label for="name">Email :</label>
+    <input type="text" name="email" placeholder="Enter your email"/>
+    <br>
+    <label for="date">DOB :</label>
+    <input type="date" name="dob"/>
+    <br>
+    <label for="name">Gender :</label>
+    <input type="radio" name="gender" value="M"/>Male
+    <input type="radio" name="gender" value="F"/>FeMale
+    <br>
+    <label for="branch " >Branch :</label>
+    <select name="branch">
+        <option value="CSE">CSE</option>
+        <option value="CSE">IT</option>
+        <option value="CSE">AIML</option>
+        <option value="CSE">CSE-AIML</option>
+    </select>
+    <br>
+    <label for="semester">Sem:</label>
+    <select name="sem">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+    </select>
+    <br>
+    <input type="submit" value="register">
+    <input type="reset" value="reset">
 </body>
 </html>
